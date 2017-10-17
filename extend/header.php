@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title><?php echo $title; ?></title>
-		<link rel="stylesheet" href="../css/materialize.min.css">
+        <link href="../css/materialize.min.css" rel="stylesheet">
 		</head>
 
 	<body>	
