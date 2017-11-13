@@ -6,6 +6,17 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title><?php echo $title; ?></title>
         <link href="../css/materialize.min.css" rel="stylesheet">
+        <script>
+            function delete_articulo(codigo_to_delete)
+            {
+                var confirmation = confirm('¿Está seguro de que desea eliminar el producto con el código '+ codigo_to_delete);
+    
+                if(confirmation)
+                {
+                    window.location = "delete_articulo.php?codigo="+codigo_to_delete;
+                }
+            }
+        </script>
 		</head>
 
 	<body>
